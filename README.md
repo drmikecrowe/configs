@@ -2,10 +2,6 @@
 
 Credit:  Forked from [ntnyq](https://github.com/ntnyq/configs)
 
-# configs
-
-![CI](https://github.com/drmikecrowe/configs/workflows/CI/badge.svg)
-
 ## ESLint
 
 **[eslint-config](./packages/eslint-config)**
@@ -43,3 +39,7 @@ Credit:  Forked from [ntnyq](https://github.com/ntnyq/configs)
 ## Typescript
 
 **[typescript](./packages/typescript)**
+
+## NCU (npm-check-updates)
+
+**[npm-check-updates](./packages/npm-check-updates)

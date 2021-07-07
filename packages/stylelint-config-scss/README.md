@@ -1,3 +1,7 @@
+# Personal configs
+
+Credit:  Forked from [ntnyq](https://github.com/ntnyq/configs)
+
 # StyleLint config for SCSS
 
 ## Usage
@@ -6,6 +10,10 @@
 
 ```bash
 $ npm i @drmikecrowe/stylelint-config-scss -D
+# Personal configs
+
+Credit:  Forked from [ntnyq](https://github.com/ntnyq/configs)
+
 # OR
 $ yarn add @drmikecrowe/stylelint-config-scss -D
 ```

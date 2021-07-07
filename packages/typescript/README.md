@@ -1,3 +1,7 @@
+# Personal configs
+
+Credit:  Forked from [ntnyq](https://github.com/ntnyq/configs)
+
 # Typescript 
 
 Based on the work of [unlikelystudio](https://github.com/unlikelystudio/bases)
@@ -6,6 +10,10 @@ Based on the work of [unlikelystudio](https://github.com/unlikelystudio/bases)
 
 ```bash
 npm install --save-dev @drmikecrowe/configs-typescript
+
+# Personal configs
+
+Credit:  Forked from [ntnyq](https://github.com/ntnyq/configs)
 
 # or
 

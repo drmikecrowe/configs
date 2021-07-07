@@ -1,3 +1,7 @@
+# Personal configs
+
+Credit:  Forked from [ntnyq](https://github.com/ntnyq/configs)
+
 # EsLint config for Vue.js
 
 ## Usage
@@ -6,6 +10,10 @@
 
 ```bash
 $ npm i @drmikecrowe/eslint-config-vue -D
+# Personal configs
+
+Credit:  Forked from [ntnyq](https://github.com/ntnyq/configs)
+
 # OR
 $ yarn add @drmikecrowe/eslint-config-vue -D
 ```

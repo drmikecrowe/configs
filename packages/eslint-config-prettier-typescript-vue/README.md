@@ -1,3 +1,7 @@
+# Personal configs
+
+Credit:  Forked from [ntnyq](https://github.com/ntnyq/configs)
+
 # EsLint config for Vue.js and TypeScript with Prettier
 
 ## Usage
@@ -6,6 +10,10 @@
 
 ```bash
 $ npm i @drmikecrowe/eslint-config-prettier-typescript-vue -D
+# Personal configs
+
+Credit:  Forked from [ntnyq](https://github.com/ntnyq/configs)
+
 # OR
 $ yarn add @drmikecrowe/eslint-config-prettier-typescript-vue -D
 ```
