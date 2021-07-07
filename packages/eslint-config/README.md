@@ -1,0 +1,38 @@
+# EsLint config
+
+## Usage
+
+### Install
+
+```bash
+$ npm i @drmikecrowe/eslint-config -D
+# OR
+$ yarn add @drmikecrowe/eslint-config -D
+```
+
+### Extend this config
+
+in `.eslintrc.js`
+
+```js
+module.exports = {
+    root: true,
+
+    extends: ['@drmikecrowe'],
+
+    rules: {
+        // Override rules
+    },
+}
+```
+
+in `package.json`
+
+```json
+{
+    "eslintConfig": {
+        "root": true,
+        "extends": "@drmikecrowe"
+    }
+}
+```
