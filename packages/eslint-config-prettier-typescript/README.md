@@ -10,10 +10,6 @@ Credit:  Forked from [ntnyq](https://github.com/ntnyq/configs)
 
 ```bash
 $ npm i @drmikecrowe/eslint-config-prettier-typescript -D
-# Personal configs
-
-Credit:  Forked from [ntnyq](https://github.com/ntnyq/configs)
-
 # OR
 $ yarn add @drmikecrowe/eslint-config-prettier-typescript -D
 

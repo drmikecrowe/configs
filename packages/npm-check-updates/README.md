@@ -10,10 +10,6 @@ Credit:  Forked from [ntnyq](https://github.com/ntnyq/configs)
 
 ```bash
 $ npm i @drmikecrowe/config-npm-check-updates -D
-# Personal configs
-
-Credit:  Forked from [ntnyq](https://github.com/ntnyq/configs)
-
 # OR
 $ yarn add @drmikecrowe/config-npm-check-updates -D
 ```

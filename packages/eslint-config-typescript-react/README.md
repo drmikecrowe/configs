@@ -10,10 +10,6 @@ Credit:  Forked from [ntnyq](https://github.com/ntnyq/configs)
 
 ```bash
 $ npm i @drmikecrowe/eslint-config-typescript-react -D
-# Personal configs
-
-Credit:  Forked from [ntnyq](https://github.com/ntnyq/configs)
-
 # OR
 $ yarn add @drmikecrowe/eslint-config-typescript-react -D
 ```
