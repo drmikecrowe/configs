@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.1 (2021-07-10)
+
+**Note:** Version bump only for package @drmikecrowe/eslint-config-prettier-vue
+
+
+
+
+
 ## [0.1.8](https://github.com/drmikecrowe/configs/compare/@drmikecrowe/eslint-config-prettier-vue@0.1.7...@drmikecrowe/eslint-config-prettier-vue@0.1.8) (2021-02-20)
 
 **Note:** Version bump only for package @drmikecrowe/eslint-config-prettier-vue

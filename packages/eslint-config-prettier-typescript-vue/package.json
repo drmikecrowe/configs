@@ -1,14 +1,14 @@
 {
   "name": "@drmikecrowe/eslint-config-prettier-typescript-vue",
   "description": "drmikecrowe eslint config for TypeScript and Vue.js with Prettier",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "drmikecrowe",
     "email": "drmikecrowe@gmail.com"
   },
   "dependencies": {
-    "@drmikecrowe/eslint-config-prettier": "^0.1.0",
-    "@drmikecrowe/eslint-config-typescript-vue": "^0.1.0"
+    "@drmikecrowe/eslint-config-prettier": "0.1.1",
+    "@drmikecrowe/eslint-config-typescript-vue": "0.1.1"
   },
   "files": [
     "lib"

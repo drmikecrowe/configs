@@ -1,7 +1,7 @@
 {
   "name": "@drmikecrowe/eslint-config",
   "description": "drmikecrowe eslint config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "drmikecrowe",
     "email": "drmikecrowe@gmail.com"
