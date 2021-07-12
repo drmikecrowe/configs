@@ -7,7 +7,7 @@
       "allowBranch": "main",
       "conventionalCommits": true,
       "exact": true,
-      "ignoreChanges": ["ignored-file", "**/__tests__/**", "**/*.md"],
+      "ignoreChanges": ["ignored-file", "**/__tests__/**"],
       "message": "chore: release"
     }
   }
