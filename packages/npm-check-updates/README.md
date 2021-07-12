@@ -16,6 +16,8 @@ $ yarn add @drmikecrowe/config-npm-check-updates -D
 
 ### Extend this config
 
+Instead of `package.json`, you must create your own config as such:
+
 in `.ncurc.js`
 
 ```js
