@@ -1,34 +1,14 @@
 {
   "name": "root",
-  "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
-  "scripts": {
-    "lint": "eslint packages",
-    "release": "yarn lint && lerna publish"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
+  "author": {
+    "name": "drmikecrowe",
+    "url": "https://github.com/drmikecrowe/configs"
   },
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional",
       "@commitlint/config-lerna-scopes"
     ]
-  },
-  "lint-staged": {
-    "*.{js,ts}": "eslint --fix",
-    "*.{json,md}": "prettier --write",
-    "package.json": "sort-package-json"
-  },
-  "prettier": "@drmikecrowe/prettier-config",
-  "eslintConfig": {
-    "extends": "@drmikecrowe/eslint-config",
-    "root": true
   },
   "dependencies": {},
   "devDependencies": {
@@ -41,5 +21,34 @@
     "lint-staged": "^10.5.4",
     "prettier": "^2.2.1",
     "sort-package-json": "^1.49.0"
-  }
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "eslintConfig": {
+    "extends": "@drmikecrowe/eslint-config",
+    "root": true
+  },
+  "homepage": "https://github.com/drmikecrowe/configs",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts}": "eslint --fix",
+    "*.{json,md}": "prettier --write",
+    "package.json": "sort-package-json"
+  },
+  "prettier": "@drmikecrowe/prettier-config",
+  "private": true,
+  "repository": "https://github.com/drmikecrowe/configs.git",
+  "scripts": {
+    "lint": "eslint packages",
+    "release": "yarn lint && lerna publish"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }

@@ -16,10 +16,8 @@ $ yarn add @drmikecrowe/config-npm-check-updates -D
 
 ### Extend this config
 
-in `package.json`
+in `.ncurc.js`
 
-```json
-{
-    "ncurc": "@drmikecrowe/config-npm-check-updates"
-}
+```js
+module.exports = require("@drmikecrowe/config-npm-check-updates");
 ```
