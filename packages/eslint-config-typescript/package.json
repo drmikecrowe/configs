@@ -1,13 +1,13 @@
 {
   "name": "@drmikecrowe/eslint-config-typescript",
   "description": "drmikecrowe eslint config for TypeScript",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": {
     "name": "drmikecrowe",
     "email": "drmikecrowe@gmail.com"
   },
   "dependencies": {
-    "@drmikecrowe/eslint-config": "~0.1.0",
+    "@drmikecrowe/eslint-config": "0.1.3",
     "@typescript-eslint/eslint-plugin": "^4.15.1",
     "@typescript-eslint/parser": "^4.15.1"
   },

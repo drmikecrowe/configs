@@ -1,13 +1,13 @@
 {
   "name": "@drmikecrowe/stylelint-config-scss",
   "description": "drmikecrowe stylelint config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": {
     "name": "drmikecrowe",
     "email": "drmikecrowe@gmail.com"
   },
   "dependencies": {
-    "@drmikecrowe/stylelint-config": "~0.1.0",
+    "@drmikecrowe/stylelint-config": "0.1.2",
     "stylelint-scss": "^3.19.0"
   },
   "files": [
