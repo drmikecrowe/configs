@@ -3,21 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.3](https://github.com/drmikecrowe/configs/compare/@drmikecrowe/eslint-config-prettier-typescript-react@0.1.2...@drmikecrowe/eslint-config-prettier-typescript-react@0.1.3) (2021-07-27)
+
+### Bug Fixes
+
+- fixing typescript config ([90388c4](https://github.com/drmikecrowe/configs/commit/90388c4a744ba11070f668e752123d549994c4fb))
+
 ## [0.1.2](https://github.com/drmikecrowe/configs/compare/@drmikecrowe/eslint-config-prettier-typescript-react@0.1.1...@drmikecrowe/eslint-config-prettier-typescript-react@0.1.2) (2021-07-12)
 
 **Note:** Version bump only for package @drmikecrowe/eslint-config-prettier-typescript-react
 
-
-
-
-
 ## 0.1.1 (2021-07-10)
 
 **Note:** Version bump only for package @drmikecrowe/eslint-config-prettier-typescript-react
-
-
-
-
 
 ## [0.1.14](https://github.com/drmikecrowe/configs/compare/@drmikecrowe/eslint-config-prettier-typescript-react@0.1.13...@drmikecrowe/eslint-config-prettier-typescript-react@0.1.14) (2021-02-20)
 
@@ -79,4 +77,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
--   add presets ([6fe94fa](https://github.com/drmikecrowe/configs/commit/6fe94fae4ed9d80b18833c9e5a3f51f710ebda43))
+- add presets ([6fe94fa](https://github.com/drmikecrowe/configs/commit/6fe94fae4ed9d80b18833c9e5a3f51f710ebda43))
