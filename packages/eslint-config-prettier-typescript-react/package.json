@@ -1,14 +1,14 @@
 {
   "name": "@drmikecrowe/eslint-config-prettier-typescript-react",
   "description": "drmikecrowe eslint config for TypeScript and React.js with Prettier",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": {
     "name": "drmikecrowe",
     "email": "drmikecrowe@gmail.com"
   },
   "dependencies": {
-    "@drmikecrowe/eslint-config-prettier": "0.1.3",
-    "@drmikecrowe/eslint-config-typescript-react": "0.1.3"
+    "@drmikecrowe/eslint-config-prettier": "0.1.4",
+    "@drmikecrowe/eslint-config-typescript-react": "0.1.4"
   },
   "files": [
     "lib"

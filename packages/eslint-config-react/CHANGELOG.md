@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.4](https://github.com/drmikecrowe/configs/compare/@drmikecrowe/eslint-config-react@0.1.2...@drmikecrowe/eslint-config-react@0.1.4) (2021-07-27)
+
+### Bug Fixes
+
+- fixing typescript config ([90388c4](https://github.com/drmikecrowe/configs/commit/90388c4a744ba11070f668e752123d549994c4fb))
+
 ## [0.1.3](https://github.com/drmikecrowe/configs/compare/@drmikecrowe/eslint-config-react@0.1.2...@drmikecrowe/eslint-config-react@0.1.3) (2021-07-27)
 
 ### Bug Fixes
