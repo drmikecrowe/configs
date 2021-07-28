@@ -3,8 +3,5 @@
  */
 
 module.exports = {
-  extends: [
-    '@drmikecrowe/typescript',
-    '@drmikecrowe/prettier/lib/prettier'
-  ],
-}
+  extends: ["@drmikecrowe/typescript", "@drmikecrowe/prettier"],
+};

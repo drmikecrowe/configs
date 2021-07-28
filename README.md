@@ -1,15 +1,17 @@
 # Shareable ESLint/Prettier/TypeScript configurations
 
-This is NOT my work, but forked from other repos:
+Recently, the [eslint-config-prettier v8 upgrade](https://github.com/prettier/eslint-config-prettier/blob/main/CHANGELOG.md#version-800-2021-02-21) broke my ESLint configuration, and I realized I needed a centralized way of managing my ESLint configuration across projects.
+
+This is the outline for how I will solve common configuration across projects going forward.  Here are the key features:
+
+* Layer your ESLint rules based on topics: ESLint + Prettier, then TypeScript, then React/Vue.
+* Use Lerna to publish scoped packages to [npmjs](https://www.npmjs.com/).
+* Some helper tools to upgrade your code.
+
+Disclaimer: This is not my original work, but leveraged from other's work, most notably:
 
 * The ESLint configuration started with [ntnyq](https://github.com/ntnyq/configs) configs
 * The TypeScript idea came from [unlikelystudio](https://github.com/unlikelystudio/bases) settings 
-
-This is the outline for how to solve common configuration going forward.  Here's the key features:
-
-* Layer your ESLint rules based on topics: ESLint + Prettier, then TypeScript, then React/Vue
-* Lerna based publish to NPM is trivial
-* Some helper tools to upgrade your code 
 
 ## Layered ESLint
 
@@ -17,17 +19,17 @@ The benefit of this organizational structure is layering your ESLint rules.  Som
 
 A picture is worth a 1000 words:
 
-
 [![](./layered.svg)](https://mermaid-js.github.io/mermaid-live-editor/edit##eyJjb2RlIjoiZ3JhcGggVERcbiAgRVtlc2xpbnQtY29uZmlnXSAtLT4gRVBbZXNsaW50LWNvbmZpZy1wcmV0dGllcl1cbiAgRSAtLT4gRVRbZXNsaW50LWNvbmZpZy10eXBlc2NyaXB0XVxuXG4gIEVQIC0tPiBFUFJbZXNsaW50LWNvbmZpZy1wcmV0dGllci1yZWFjdF1cbiAgRVBUIC0tPiBFUFRSW2VzbGludC1jb25maWctcHJldHRpZXItdHlwZXNjcmlwdC1yZWFjdF1cbiAgRVBSIC0tPiBFUFRSW2VzbGludC1jb25maWctcHJldHRpZXItdHlwZXNjcmlwdC1yZWFjdF1cbiAgRVQgLS0-IEVQVFtlc2xpbnQtY29uZmlnLXR5cGVzY3JpcHQtcmVhY3RdIiwibWVybWFpZCI6IntcbiAgXCJ0aGVtZVwiOiBcImRlZmF1bHRcIlxufSIsInVwZGF0ZUVkaXRvciI6ZmFsc2UsImF1dG9TeW5jIjp0cnVlLCJ1cGRhdGVEaWFncmFtIjpmYWxzZX0)
 
-Each rule layers parent rules into it's rules.  For example:
+Each rule layers parent rules into it's rules.  For example, my personal configuration contains:
 
 `eslint-config-prettier-typescript-react`:
 
 ```
   extends: [
     '@drmikecrowe/typescript-react',
-    '@drmikecrowe/prettier/lib/prettier',
+    '@drmikecrowe/prettier-react',
+    '@drmikecrowe/prettier-typescript',
     ...
 ```
 
@@ -36,12 +38,12 @@ which in turn `eslint-config-prettier-typescript`:
 ```
   extends: [
     '@drmikecrowe/typescript',
-    '@drmikecrowe/prettier/lib/prettier',
+    '@drmikecrowe/prettier',
     ...
 ```
 etc.
 
-Naturally, when you publish your configs, they will reference your scope, not mine 😄
+Naturally, when you publish your configs, they will reference your scope, not mine 😄.
 
 ## Instructions after cloning
 
@@ -94,7 +96,18 @@ To use these, follow these steps:
   - (these two command setup eslint/prettier in a standard way -- the next step really needs `.eslintrc.json` instead of a .js file)
 - [ ] Run `mrm --preset YOURSCOPE config`
 
-Once that finishes, you will have the config changes ready to see if you like this new structure
+Once that finishes, you can evaluate the proposed changes and see if you like the results.  If they are satisfactory, commit them and enjoy the new config.  If they are not, do a 
+```
+git reset --hard HEAD
+```
+
+ and update your preset at 
+```
+packages/mrm-preset-drmikecrowe/configs/index.js
+``` 
+as needed to modify the configs as you see fit.
+
+Enjoy!
 
 ## Included Configs
 

@@ -3,11 +3,11 @@
   "description": "drmikecrowe stylelint config",
   "version": "0.1.3",
   "author": {
-    "name": "drmikecrowe",
+    "name": "Mike Crowe",
     "email": "drmikecrowe@gmail.com"
   },
   "dependencies": {
-    "@drmikecrowe/stylelint-config": "0.1.3",
+    "@drmikecrowe/stylelint-config": "*",
     "stylelint-scss": "^3.19.0"
   },
   "files": [

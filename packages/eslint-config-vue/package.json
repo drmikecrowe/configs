@@ -3,14 +3,14 @@
   "description": "drmikecrowe eslint config for Vue.js",
   "version": "0.1.4",
   "author": {
-    "name": "drmikecrowe",
+    "name": "Mike Crowe",
     "email": "drmikecrowe@gmail.com"
   },
   "dependencies": {
-    "@babel/core": "^7.12.17",
-    "@babel/eslint-parser": "^7.12.17",
-    "@drmikecrowe/eslint-config": "0.1.4",
-    "eslint-plugin-vue": "^7.6.0"
+    "@babel/core": "^7.14.8",
+    "@babel/eslint-parser": "^7.14.7",
+    "@drmikecrowe/eslint-config": "*",
+    "eslint-plugin-vue": "^7.14.0"
   },
   "files": [
     "lib"
