@@ -15,7 +15,7 @@
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
     "@commitlint/config-lerna-scopes": "^13.1.0",
-    "@drmikecrowe/eslint-config-prettier": "^0.1.4",
+    "@drmikecrowe/eslint-config-prettier": "*",
     "eslint": "^7.31.0",
     "husky": "^7.0.1",
     "lerna": "^4.0.0",

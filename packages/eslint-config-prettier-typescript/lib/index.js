@@ -3,12 +3,5 @@
  */
 
 module.exports = {
-  extends: [
-    "plugin:promise/recommended",
-    "@drmikecrowe/typescript",
-    "@drmikecrowe/prettier",
-  ],
-  rules: {
-    "@typescript-eslint/no-floating-promises": ["error"],
-  },
+  extends: ["@drmikecrowe/typescript", "@drmikecrowe/prettier"],
 };
