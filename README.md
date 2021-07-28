@@ -53,6 +53,7 @@ Naturally, when you publish your configs, they will reference your scope, not @d
 - [ ] Globally search/replace all occurrences of `@drmikecrowe` and replace with your scope
 - [ ] Globally search/replace all occurrences of `drmikecrowe` and replace with your username
 - [ ] Rename `packages/mrm-preset-drmikecrowe` to match your scope (without the `@`)
+- [ ] Bootstrap the system using `lerna bootstrap`
 - [ ] Login to NPM using `npm login`
 - [ ] Publish your packages using `lerna publish`
 
