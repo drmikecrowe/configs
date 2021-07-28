@@ -1,14 +1,14 @@
 {
   "name": "@drmikecrowe/eslint-config-typescript-vue",
   "description": "drmikecrowe eslint config for TypeScript and Vue.js",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "author": {
     "name": "Mike Crowe",
     "email": "drmikecrowe@gmail.com"
   },
   "dependencies": {
-    "@drmikecrowe/eslint-config-typescript": "*",
-    "@drmikecrowe/eslint-config-vue": "*"
+    "@drmikecrowe/eslint-config-typescript": "0.2.0",
+    "@drmikecrowe/eslint-config-vue": "0.2.0"
   },
   "files": [
     "lib"

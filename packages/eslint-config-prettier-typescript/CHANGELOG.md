@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/drmikecrowe/configs/compare/@drmikecrowe/eslint-config-prettier-typescript@0.1.4...@drmikecrowe/eslint-config-prettier-typescript@0.2.0) (2021-07-28)
+
+
+### Features
+
+* general package/doc cleanup ([c69a8f6](https://github.com/drmikecrowe/configs/commit/c69a8f60a03531f44d7996955d48d522d9637427))
+
+
+
+
+
 ## [0.1.4](https://github.com/drmikecrowe/configs/compare/@drmikecrowe/eslint-config-prettier-typescript@0.1.2...@drmikecrowe/eslint-config-prettier-typescript@0.1.4) (2021-07-27)
 
 ### Bug Fixes
