@@ -21,7 +21,7 @@ A picture is worth a 1000 words:
 
 [![](./layered.svg)](https://mermaid-js.github.io/mermaid-live-editor/edit##eyJjb2RlIjoiZ3JhcGggVERcbiAgRVtlc2xpbnQtY29uZmlnXSAtLT4gRVBbZXNsaW50LWNvbmZpZy1wcmV0dGllcl1cbiAgRSAtLT4gRVRbZXNsaW50LWNvbmZpZy10eXBlc2NyaXB0XVxuXG4gIEVQIC0tPiBFUFJbZXNsaW50LWNvbmZpZy1wcmV0dGllci1yZWFjdF1cbiAgRVBUIC0tPiBFUFRSW2VzbGludC1jb25maWctcHJldHRpZXItdHlwZXNjcmlwdC1yZWFjdF1cbiAgRVBSIC0tPiBFUFRSW2VzbGludC1jb25maWctcHJldHRpZXItdHlwZXNjcmlwdC1yZWFjdF1cbiAgRVQgLS0-IEVQVFtlc2xpbnQtY29uZmlnLXR5cGVzY3JpcHQtcmVhY3RdIiwibWVybWFpZCI6IntcbiAgXCJ0aGVtZVwiOiBcImRlZmF1bHRcIlxufSIsInVwZGF0ZUVkaXRvciI6ZmFsc2UsImF1dG9TeW5jIjp0cnVlLCJ1cGRhdGVEaWFncmFtIjpmYWxzZX0)
 
-Each rule layers parent rules into it's rules.  For example, my personal configuration contains:
+Each rule layers parent rules into it's rules.  For example:
 
 `eslint-config-prettier-typescript-react`:
 
@@ -43,15 +43,15 @@ which in turn `eslint-config-prettier-typescript`:
 ```
 etc.
 
-Naturally, when you publish your configs, they will reference your scope, not mine 😄.
+Naturally, when you publish your configs, they will reference your scope, not @drmikecrowe 😄.
 
 ## Instructions after cloning
 
 - [ ] Choose your NPM scope.  
-  - [ ] If you use your npm username, you can it as your scope (mine are published to `@drmikecrowe` for my use)
+  - [ ] If you use your npm username, you can it as your scope
   - [ ] If you want a different scope, you must login to [npmjs.com](https://www.npmjs.com/) and add an organization to your account
-- [ ] Globally search/replace all occurrences of my username (`@drmikecrowe`) and replace with your scope
-- [ ] Globally search/replace all occurrences of my username (`drmikecrowe`) and replace with your username
+- [ ] Globally search/replace all occurrences of `@drmikecrowe` and replace with your scope
+- [ ] Globally search/replace all occurrences of `drmikecrowe` and replace with your username
 - [ ] Rename `packages/mrm-preset-drmikecrowe` to match your scope (without the `@`)
 - [ ] Login to NPM using `npm login`
 - [ ] Publish your packages using `lerna publish`
