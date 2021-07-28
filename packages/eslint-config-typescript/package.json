@@ -1,16 +1,16 @@
 {
   "name": "@drmikecrowe/eslint-config-typescript",
   "description": "drmikecrowe eslint config for TypeScript",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": {
     "name": "Mike Crowe",
     "email": "drmikecrowe@gmail.com"
   },
   "dependencies": {
-    "eslint-plugin-promise": "^5.1.0",
-    "@drmikecrowe/eslint-config": "*",
+    "@drmikecrowe/eslint-config": "0.3.0",
     "@typescript-eslint/eslint-plugin": "^4.15.1",
-    "@typescript-eslint/parser": "^4.15.1"
+    "@typescript-eslint/parser": "^4.15.1",
+    "eslint-plugin-promise": "^5.1.0"
   },
   "files": [
     "lib"

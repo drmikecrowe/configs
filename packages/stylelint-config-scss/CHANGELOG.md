@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/drmikecrowe/configs/compare/@drmikecrowe/stylelint-config-scss@0.2.0...@drmikecrowe/stylelint-config-scss@0.3.0) (2021-07-28)
+
+
+### Features
+
+* adding eslint-plugin-promise ([7c96230](https://github.com/drmikecrowe/configs/commit/7c962303f0943493bdc0e0533aae2aa85fb79c2e))
+* adding eslint-plugin-promise to typescript ([0008041](https://github.com/drmikecrowe/configs/commit/000804187fc90abc0789626758f4bfedf8e199d8))
+
+
+
+
+
 # [0.2.0](https://github.com/drmikecrowe/configs/compare/@drmikecrowe/stylelint-config-scss@0.1.3...@drmikecrowe/stylelint-config-scss@0.2.0) (2021-07-28)
 
 

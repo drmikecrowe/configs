@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/drmikecrowe/configs/compare/@drmikecrowe/eslint-config-prettier-vue@0.2.0...@drmikecrowe/eslint-config-prettier-vue@0.3.0) (2021-07-28)
+
+
+### Features
+
+* adding eslint-plugin-promise to typescript ([0008041](https://github.com/drmikecrowe/configs/commit/000804187fc90abc0789626758f4bfedf8e199d8))
+
+
+
+
+
 # [0.2.0](https://github.com/drmikecrowe/configs/compare/@drmikecrowe/eslint-config-prettier-vue@0.1.4...@drmikecrowe/eslint-config-prettier-vue@0.2.0) (2021-07-28)
 
 

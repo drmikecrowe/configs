@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/drmikecrowe/configs/compare/mrm-preset-drmikecrowe@0.2.0...mrm-preset-drmikecrowe@0.3.0) (2021-07-28)
+
+
+### Features
+
+* adding eslint-plugin-promise ([7c96230](https://github.com/drmikecrowe/configs/commit/7c962303f0943493bdc0e0533aae2aa85fb79c2e))
+
+
+
+
+
 # [0.2.0](https://github.com/drmikecrowe/configs/compare/mrm-preset-drmikecrowe@0.1.3...mrm-preset-drmikecrowe@0.2.0) (2021-07-28)
 
 
