@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/drmikecrowe/configs/compare/@drmikecrowe/config-npm-check-updates@0.2.0...@drmikecrowe/config-npm-check-updates@0.3.0) (2021-07-29)
+
+
+### Features
+
+* add ncu package manager detection ([5152b8f](https://github.com/drmikecrowe/configs/commit/5152b8f022d27061daf17be6a4d708502dc6c469))
+
+
+
+
+
 # [0.2.0](https://github.com/drmikecrowe/configs/compare/@drmikecrowe/config-npm-check-updates@0.1.5...@drmikecrowe/config-npm-check-updates@0.2.0) (2021-07-28)
 
 
