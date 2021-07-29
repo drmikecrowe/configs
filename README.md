@@ -43,17 +43,36 @@ which in turn `eslint-config-prettier-typescript`:
 ```
 etc.
 
-Naturally, when you publish your configs, they will reference your scope, not @drmikecrowe 😄.
+Naturally, when you publish your configs, they will reference your scope, not mine 😄.
 
 ## Instructions after cloning
 
+A colleague recently embarked on a move to migrate all their dot-config files into `package.json`.  Initially I was resistant to this, as I felt like it was adding lots of bloat to `package.json`.  However, now that I've worked with this for a bit, I'm starting to see the advantage of a single configuration file (as much as possible).
+
+However, the level of support for `package.json` config depends upon the base library being used.  You will see these scenarios:
+
+1. Full `package.json` support, including referencing your shared configuration via the package name.  
+2. `package.json` support _without_ support for package names
+3. Generic json/js/rc file support
+
+Every package is different, so you will have to check the documentation individually to determine the level of support.  If the package uses [cosmiconfig](https://anandchowdhary.github.io/cosmic/), you are golden (#1 above).  Other configuration packages are not as complete, and offer less flexibility.
+
+Some config libraries, such as [rc-config-loader](https://github.com/azu/rc-config-loader) (used by npm-check-updates) support configuration in `package.json`, but not referencing shared configuration.  If this is the case, you must use an external `.js` configuration file and import your configuration.  Here's how the `npm-check-updates` config must use `.ncurc.js` such as:
+
+```js
+module.exports = require("@drmikecrowe/config-npm-check-updates");
+```
+
+## Instructions
+
+- [ ] Clone the [template repo](https://github.com/drmikecrowe/eslint-config-templates)
+- [ ] Update the individual rules per your standards
 - [ ] Choose your NPM scope.  
-  - [ ] If you use your npm username, you can it as your scope
-  - [ ] If you want a different scope, you must login to [npmjs.com](https://www.npmjs.com/) and add an organization to your account
-- [ ] Globally search/replace all occurrences of `@drmikecrowe` and replace with your scope
-- [ ] Globally search/replace all occurrences of `drmikecrowe` and replace with your username
+  - [ ] If you use your npm username, you can it as your scope (my personal configs are published to `@drmikecrowe` for my use)
+  - [ ] If you want a different scope, you must login to [npmjs.com](https://www.npmjs.com/) and add an organization to your account.  For instance, our `@pinnsg` scope is our organizational scope
+- [ ] Globally search/replace all occurrences of my scope (`@drmikecrowe`) and replace with your scope
+- [ ] Globally search/replace all occurrences of my username (`drmikecrowe`) and replace with your username (these are 2 steps in case your scope/username are different)
 - [ ] Rename `packages/mrm-preset-drmikecrowe` to match your scope (without the `@`)
-- [ ] Bootstrap the system using `lerna bootstrap`
 - [ ] Login to NPM using `npm login`
 - [ ] Publish your packages using `lerna publish`
 
