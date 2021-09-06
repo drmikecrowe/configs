@@ -3,5 +3,5 @@
  */
 
 module.exports = {
-  extends: ["@drmikecrowe/react", "@drmikecrowe/typescript"],
+  extends: ["@drmikecrowe/typescript", "@drmikecrowe/react"],
 };

@@ -53,7 +53,8 @@
   "repository": "https://github.com/drmikecrowe/configs.git",
   "scripts": {
     "lint": "eslint packages",
-    "release": "yarn lint && lerna publish"
+    "prerelease": "lerna link && npm run lint && lerna version && syncpack set-semver-ranges --filter '@drmikecrowe' --semver-range '>=' && lerna bootstrap && git diff-index --quiet HEAD || git commit -am'chore: update semver for release'",
+    "release": "lerna publish from-package"
   },
   "workspaces": [
     "packages/*"

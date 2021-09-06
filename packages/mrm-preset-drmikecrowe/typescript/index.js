@@ -33,8 +33,12 @@ module.exports = function task({ configScope }) {
   const isGui = guiPackages.some((name) => pkg.get(`devDependencies.${name}`));
   const type = isGui ? "dom" : "library";
 
+  // package.json
+  pkg.appendScript("pretest", "tsc --noEmit").save();
+  pkg.save();
+
   // Dependencies
-  install(packages);
+  install(packages, { dev: true, yarn: true });
 
   // tsconfig.json
   const tsconfig = json("tsconfig.json");
@@ -44,9 +48,6 @@ module.exports = function task({ configScope }) {
   const co = tsconfig.get("compilerOptions");
   tsconfig.set("compilerOptions", _.omit(co, omitKeys));
   tsconfig.save();
-
-  // package.json
-  pkg.appendScript("pretest", "tsc --noEmit").save();
 };
 module.exports.description = "Migrate typescript to global setting";
 module.exports.parameters = {

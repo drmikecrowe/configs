@@ -9,9 +9,9 @@
 module.exports = {
   extends: [
     "plugin:promise/recommended",
+    "plugin:@typescript-eslint/recommended",
     "@drmikecrowe",
     // Enable all the recommended rules for @typescript-eslint/eslint-plugin
-    "plugin:@typescript-eslint/recommended",
     "plugin:import/typescript",
   ],
 

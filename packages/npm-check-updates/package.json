@@ -19,5 +19,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": "drmikecrowe/configs.git"
+  "repository": "drmikecrowe/configs.git",
+  "gitHead": "2e51b7d1e3ad620a33bbce41e1005916b8e5a378"
 }
