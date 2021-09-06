@@ -1,14 +1,14 @@
 {
   "name": "@drmikecrowe/eslint-config-prettier-react",
   "description": "drmikecrowe eslint config for React.js with prettier",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "author": {
     "name": "Mike Crowe",
     "email": "drmikecrowe@gmail.com"
   },
   "dependencies": {
-    "@drmikecrowe/eslint-config-prettier": "0.3.0",
-    "@drmikecrowe/eslint-config-react": "0.3.0"
+    "@drmikecrowe/eslint-config-prettier": "0.3.1",
+    "@drmikecrowe/eslint-config-react": "0.3.1"
   },
   "files": [
     "lib"
