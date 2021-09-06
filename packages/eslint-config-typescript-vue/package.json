@@ -7,8 +7,8 @@
     "email": "drmikecrowe@gmail.com"
   },
   "dependencies": {
-    "@drmikecrowe/eslint-config-typescript": "0.3.2",
-    "@drmikecrowe/eslint-config-vue": "0.3.2"
+    "@drmikecrowe/eslint-config-typescript": ">=0.3.2",
+    "@drmikecrowe/eslint-config-vue": ">=0.3.2"
   },
   "files": [
     "lib"
