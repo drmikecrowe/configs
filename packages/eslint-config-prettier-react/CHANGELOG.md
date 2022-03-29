@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.3](https://github.com/drmikecrowe/configs/compare/@drmikecrowe/eslint-config-prettier-react@0.3.2...@drmikecrowe/eslint-config-prettier-react@0.3.3) (2022-03-29)
+
+**Note:** Version bump only for package @drmikecrowe/eslint-config-prettier-react
+
+
+
+
+
 ## [0.3.2](https://github.com/drmikecrowe/configs/compare/@drmikecrowe/eslint-config-prettier-react@0.3.1...@drmikecrowe/eslint-config-prettier-react@0.3.2) (2021-09-06)
 
 **Note:** Version bump only for package @drmikecrowe/eslint-config-prettier-react

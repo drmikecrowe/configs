@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.2](https://github.com/drmikecrowe/configs/compare/mrm-preset-drmikecrowe@0.3.1...mrm-preset-drmikecrowe@0.3.2) (2022-03-29)
+
+**Note:** Version bump only for package mrm-preset-drmikecrowe
+
+
+
+
+
 ## [0.3.1](https://github.com/drmikecrowe/configs/compare/mrm-preset-drmikecrowe@0.3.0...mrm-preset-drmikecrowe@0.3.1) (2021-09-06)
 
 **Note:** Version bump only for package mrm-preset-drmikecrowe
