@@ -7,10 +7,10 @@
     "email": "drmikecrowe@gmail.com"
   },
   "dependencies": {
-    "@babel/core": "^7.14.8",
-    "@babel/eslint-parser": "^7.14.7",
+    "@babel/core": "^7.17.8",
+    "@babel/eslint-parser": "^7.17.0",
     "@drmikecrowe/eslint-config": ">=0.3.1",
-    "eslint-plugin-vue": "^7.14.0"
+    "eslint-plugin-vue": "^7.20.0"
   },
   "files": [
     "lib"

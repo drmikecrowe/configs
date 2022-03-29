@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@drmikecrowe/stylelint-config": ">=0.3.0",
-    "stylelint-scss": "^3.19.0"
+    "stylelint-scss": "^3.21.0"
   },
   "files": [
     "lib"

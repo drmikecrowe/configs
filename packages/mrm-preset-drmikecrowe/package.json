@@ -10,14 +10,14 @@
   "dependencies": {
     "find-githost": "^1.0.0",
     "git-username": "^1.0.0",
-    "mrm-core": "^6.0.0",
-    "mrm-task-eslint": "^3.0.0",
-    "mrm-task-prettier": "^4.0.0",
-    "mrm-task-typescript": "^3.0.0",
+    "mrm-core": "^6.1.7",
+    "mrm-task-eslint": "^3.0.8",
+    "mrm-task-prettier": "^4.0.8",
+    "mrm-task-typescript": "^3.0.8",
     "parse-author": "^2.0.0",
     "rc": "^1.2.8",
     "smpltmpl": "^1.0.2",
-    "syncpack": "^5.7.11",
+    "syncpack": "^5.8.15",
     "user-meta": "^1.0.0"
   },
   "engines": {
