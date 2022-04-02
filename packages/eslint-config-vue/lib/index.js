@@ -26,17 +26,5 @@ module.exports = {
      * @see https://eslint.vuejs.org/rules/no-v-html.html
      */
     "vue/no-v-html": "off",
-
-    // Put multiple attrs in multiple lines
-    "vue/max-attributes-per-line": [
-      "error",
-      {
-        singleline: 1,
-        multiline: {
-          max: 1,
-          allowFirstLine: false,
-        },
-      },
-    ],
   },
 };
