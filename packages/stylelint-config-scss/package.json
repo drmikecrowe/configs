@@ -7,7 +7,7 @@
     "email": "drmikecrowe@gmail.com"
   },
   "dependencies": {
-    "@drmikecrowe/stylelint-config": "0.3.1",
+    "@drmikecrowe/stylelint-config": ">=0.3.1",
     "stylelint-scss": "^3.21.0"
   },
   "files": [
