@@ -9,7 +9,7 @@
   "dependencies": {
     "@drmikecrowe/eslint-config-prettier": ">=0.3.4",
     "@drmikecrowe/eslint-config-prettier-typescript": ">=0.3.6",
-    "@drmikecrowe/eslint-config-typescript-react": "0.3.6"
+    "@drmikecrowe/eslint-config-typescript-react": ">=0.3.6"
   },
   "files": [
     "lib"
