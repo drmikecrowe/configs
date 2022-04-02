@@ -6,7 +6,7 @@
 
 module.exports = {
   // Maximum line length
-  printWidth: 120,
+  printWidth: 132,
 
   // Specify the number of spaces per indentation-level
   tabWidth: 2,
@@ -15,7 +15,7 @@ module.exports = {
   useTabs: false,
 
   // Use semicolons or not
-  semi: true,
+  semi: false,
 
   // Use single quotes instead of double quotes
   singleQuote: true,
