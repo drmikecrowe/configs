@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@drmikecrowe/eslint-config-prettier": "0.3.3",
+    "@drmikecrowe/eslint-config-prettier-vue": "0.3.3",
     "@drmikecrowe/eslint-config-typescript-vue": "0.3.3"
   },
   "files": [
