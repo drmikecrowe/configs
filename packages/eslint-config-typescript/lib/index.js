@@ -113,7 +113,7 @@ module.exports = {
 
     // @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/space-before-function-paren.md
     "space-before-function-paren": "off",
-    "@typescript-eslint/space-before-function-paren": ["error", "always"],
+    "@typescript-eslint/space-before-function-paren": ["error", "never"],
 
     // Default export should not be encouraged in typescript
     "import/prefer-default-export": "off",
