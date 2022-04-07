@@ -3,9 +3,5 @@
  */
 
 module.exports = {
-  extends: [
-    "@drmikecrowe/typescript",
-    "@drmikecrowe/prettier",
-    "prettier/@typescript-eslint",
-  ],
+  extends: ["@drmikecrowe/typescript", "@drmikecrowe/prettier"],
 };
