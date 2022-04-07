@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.9](https://github.com/drmikecrowe/configs/compare/@drmikecrowe/eslint-config-typescript-react@0.3.8...@drmikecrowe/eslint-config-typescript-react@0.3.9) (2022-04-07)
+
+**Note:** Version bump only for package @drmikecrowe/eslint-config-typescript-react
+
+
+
+
+
 ## [0.3.8](https://github.com/drmikecrowe/configs/compare/@drmikecrowe/eslint-config-typescript-react@0.3.7...@drmikecrowe/eslint-config-typescript-react@0.3.8) (2022-04-02)
 
 **Note:** Version bump only for package @drmikecrowe/eslint-config-typescript-react

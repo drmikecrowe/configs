@@ -1,7 +1,7 @@
 {
   "name": "@drmikecrowe/eslint-config-typescript-react",
   "description": "drmikecrowe eslint config for TypeScript and React.js",
-  "version": "0.3.8",
+  "version": "0.3.9",
   "author": {
     "name": "Mike Crowe",
     "email": "drmikecrowe@gmail.com"

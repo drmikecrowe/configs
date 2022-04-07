@@ -1,7 +1,7 @@
 {
   "name": "@drmikecrowe/eslint-config-prettier-typescript",
   "description": "drmikecrowe eslint config for TypeScript with prettier",
-  "version": "0.3.7",
+  "version": "0.3.8",
   "author": {
     "name": "Mike Crowe",
     "email": "drmikecrowe@gmail.com"
