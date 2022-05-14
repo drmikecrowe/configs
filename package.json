@@ -55,7 +55,8 @@
     "lint": "eslint packages",
     "prerelease": "lerna link && npm run lint && lerna version && syncpack set-semver-ranges --filter '@drmikecrowe' --semver-range '>=' && lerna bootstrap && git diff-index --quiet HEAD || git commit -am'chore: update semver for release'",
     "release": "lerna publish from-package",
-    "upgrade": "lerna exec ncu -- -u --target latest"
+    "upgrade": "lerna exec ncu -- -u --target minor && npm i",
+    "upgrade:major": "lerna exec ncu -- -u --target major && npm i"
   },
   "workspaces": [
     "packages/*"

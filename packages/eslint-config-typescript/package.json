@@ -8,8 +8,8 @@
   },
   "dependencies": {
     "@drmikecrowe/eslint-config": ">=0.3.2",
-    "@typescript-eslint/eslint-plugin": "^4.33.0",
-    "@typescript-eslint/parser": "^4.33.0",
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
     "eslint-plugin-promise": "^5.2.0"
   },
   "files": [
