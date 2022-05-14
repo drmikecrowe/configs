@@ -9,7 +9,7 @@
   "dependencies": {
     "@babel/core": "^7.17.10",
     "@babel/eslint-parser": "^7.17.0",
-    "@drmikecrowe/eslint-config": "0.3.3",
+    "@drmikecrowe/eslint-config": ">=0.3.3",
     "eslint-plugin-vue": "^7.20.0"
   },
   "files": [
