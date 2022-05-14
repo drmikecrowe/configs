@@ -2,6 +2,5 @@
   "upgrade": true,
   "deep": true,
   "packageManager": "npm",
-  "target": "minor",
   "reject": ["typescript"]
 }

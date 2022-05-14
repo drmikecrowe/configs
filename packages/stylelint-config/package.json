@@ -7,7 +7,7 @@
     "email": "drmikecrowe@gmail.com"
   },
   "dependencies": {
-    "stylelint-config-standard": "^20.0.0"
+    "stylelint-config-standard": "^25.0.0"
   },
   "files": [
     "lib"
