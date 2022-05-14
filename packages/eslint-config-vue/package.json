@@ -1,7 +1,7 @@
 {
   "name": "@drmikecrowe/eslint-config-vue",
   "description": "drmikecrowe eslint config for Vue.js",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "author": {
     "name": "Mike Crowe",
     "email": "drmikecrowe@gmail.com"
@@ -9,7 +9,7 @@
   "dependencies": {
     "@babel/core": "^7.17.10",
     "@babel/eslint-parser": "^7.17.0",
-    "@drmikecrowe/eslint-config": ">=0.3.2",
+    "@drmikecrowe/eslint-config": "0.3.3",
     "eslint-plugin-vue": "^7.20.0"
   },
   "files": [
