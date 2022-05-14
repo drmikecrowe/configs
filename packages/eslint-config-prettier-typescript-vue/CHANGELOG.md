@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.13](https://github.com/drmikecrowe/configs/compare/@drmikecrowe/eslint-config-prettier-typescript-vue@0.3.12...@drmikecrowe/eslint-config-prettier-typescript-vue@0.3.13) (2022-05-14)
+
+**Note:** Version bump only for package @drmikecrowe/eslint-config-prettier-typescript-vue
+
+
+
+
+
 ## [0.3.12](https://github.com/drmikecrowe/configs/compare/@drmikecrowe/eslint-config-prettier-typescript-vue@0.3.11...@drmikecrowe/eslint-config-prettier-typescript-vue@0.3.12) (2022-05-14)
 
 **Note:** Version bump only for package @drmikecrowe/eslint-config-prettier-typescript-vue
