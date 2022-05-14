@@ -7,7 +7,7 @@
     "email": "drmikecrowe@gmail.com"
   },
   "dependencies": {
-    "@drmikecrowe/eslint-config": "0.3.4",
+    "@drmikecrowe/eslint-config": ">=0.3.4",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.6.2"

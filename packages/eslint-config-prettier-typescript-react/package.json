@@ -7,9 +7,9 @@
     "email": "drmikecrowe@gmail.com"
   },
   "dependencies": {
-    "@drmikecrowe/eslint-config-prettier": "0.3.6",
-    "@drmikecrowe/eslint-config-prettier-typescript": "0.3.10",
-    "@drmikecrowe/eslint-config-typescript-react": "0.3.11"
+    "@drmikecrowe/eslint-config-prettier": ">=0.3.6",
+    "@drmikecrowe/eslint-config-prettier-typescript": ">=0.3.10",
+    "@drmikecrowe/eslint-config-typescript-react": ">=0.3.11"
   },
   "files": [
     "lib"

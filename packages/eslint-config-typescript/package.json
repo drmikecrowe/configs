@@ -7,7 +7,7 @@
     "email": "drmikecrowe@gmail.com"
   },
   "dependencies": {
-    "@drmikecrowe/eslint-config": "0.3.4",
+    "@drmikecrowe/eslint-config": ">=0.3.4",
     "@typescript-eslint/eslint-plugin": "^5.23.0",
     "@typescript-eslint/parser": "^5.23.0",
     "eslint-plugin-promise": "^6.0.0"
