@@ -18,7 +18,7 @@ module.exports = {
     ...jest_env,
   },
   parserOptions: {
-    ecmaVersion: 8,
+    ecmaVersion: 2020,
   },
   plugins: jest_plugins,
 

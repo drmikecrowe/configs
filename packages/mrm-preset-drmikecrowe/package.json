@@ -17,7 +17,7 @@
     "parse-author": "^2.0.0",
     "rc": "^1.2.8",
     "smpltmpl": "^1.0.2",
-    "syncpack": "^7.2.1",
+    "syncpack": "^8.0.0",
     "user-meta": "^1.0.0"
   },
   "engines": {

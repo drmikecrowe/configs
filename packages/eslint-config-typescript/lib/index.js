@@ -17,8 +17,6 @@ module.exports = {
 
   // Use @typescript-eslint/eslint-plugin
   plugins: ["@typescript-eslint"],
-
-  // Use @typescript-eslint/parser
   parser: "@typescript-eslint/parser",
 
   // Set options for @typescript-eslint/parser
@@ -26,6 +24,9 @@ module.exports = {
     // Set default project value
     // @see https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/parser#parseroptionsproject
     project: ["tsconfig.json", "packages/**/tsconfig.json"],
+
+    // Use @typescript-eslint/parser
+    parser: "@typescript-eslint/parser",
   },
 
   // Rules overrides

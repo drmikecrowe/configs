@@ -3,9 +3,15 @@
  */
 
 module.exports = {
-  extends: [
-    "@drmikecrowe",
-    // Extends preset about prettier
-    require.resolve("./prettier"),
+  extends: ["@drmikecrowe", "prettier"],
+
+  plugins: [
+    // Use `eslint-plugin-prettier` to intergrade prettier to eslint workflow
+    "prettier",
   ],
+
+  // Rules overrides
+  rules: {
+    "prettier/prettier": "warn",
+  },
 };

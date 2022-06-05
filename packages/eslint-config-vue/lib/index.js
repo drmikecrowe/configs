@@ -4,18 +4,36 @@
  * @see https://eslint.vuejs.org/rules
  */
 
+const fs = require("fs");
+
+let nuxt = [];
+let vuever = "";
+if (fs.existsSync("package.json")) {
+  const pkg = JSON.parse(fs.readFileSync("package.json"));
+  if (pkg.devDependencies && pkg.devDependencies.nuxt) {
+    nuxt.push("plugin:nuxt/recommended");
+  }
+  const vue =
+    (pkg.devDependencies && pkg.devDependencies.vue) ||
+    (pkg.dependencies && pkg.dependencies.vue);
+  if (vue) {
+    const vver = /[0-9]/.exec(vue);
+    if (vver.startsWith(3)) vuever = "3";
+  }
+}
+
 module.exports = {
   extends: [
     "@drmikecrowe",
     // Vue style guide
-    "plugin:vue/recommended",
+    ...nuxt,
+    `plugin:vue${vuever}/recommended`,
   ],
 
-  plugins: ["vue"],
-
   parserOptions: {
-    parser: "babel-eslint",
+    ecmaVersion: "latest",
     sourceType: "module",
+    extraFileExtensions: [".vue"],
   },
 
   // Rules overrides
