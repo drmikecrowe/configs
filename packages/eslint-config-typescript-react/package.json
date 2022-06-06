@@ -1,14 +1,14 @@
 {
   "name": "@drmikecrowe/eslint-config-typescript-react",
   "description": "drmikecrowe eslint config for TypeScript and React.js",
-  "version": "0.3.11",
+  "version": "0.3.12",
   "author": {
     "name": "Mike Crowe",
     "email": "drmikecrowe@gmail.com"
   },
   "dependencies": {
-    "@drmikecrowe/eslint-config-react": ">=0.3.7",
-    "@drmikecrowe/eslint-config-typescript": ">=0.3.7"
+    "@drmikecrowe/eslint-config-react": "0.3.8",
+    "@drmikecrowe/eslint-config-typescript": "0.3.8"
   },
   "files": [
     "lib"

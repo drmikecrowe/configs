@@ -1,13 +1,13 @@
 {
   "name": "@drmikecrowe/eslint-config-react",
   "description": "drmikecrowe eslint config for React.js",
-  "version": "0.3.7",
+  "version": "0.3.8",
   "author": {
     "name": "Mike Crowe",
     "email": "drmikecrowe@gmail.com"
   },
   "dependencies": {
-    "@drmikecrowe/eslint-config": ">=0.3.4",
+    "@drmikecrowe/eslint-config": "0.3.5",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.5.0"

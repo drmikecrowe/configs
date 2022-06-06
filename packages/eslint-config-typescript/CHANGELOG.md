@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.8](https://github.com/drmikecrowe/configs/compare/@drmikecrowe/eslint-config-typescript@0.3.7...@drmikecrowe/eslint-config-typescript@0.3.8) (2022-06-06)
+
+**Note:** Version bump only for package @drmikecrowe/eslint-config-typescript
+
+
+
+
+
 ## [0.3.7](https://github.com/drmikecrowe/configs/compare/@drmikecrowe/eslint-config-typescript@0.3.6...@drmikecrowe/eslint-config-typescript@0.3.7) (2022-05-14)
 
 **Note:** Version bump only for package @drmikecrowe/eslint-config-typescript

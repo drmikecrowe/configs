@@ -1,13 +1,13 @@
 {
   "name": "@drmikecrowe/eslint-config-prettier",
   "description": "drmikecrowe eslint config with prettier",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "author": {
     "name": "Mike Crowe",
     "email": "drmikecrowe@gmail.com"
   },
   "dependencies": {
-    "@drmikecrowe/eslint-config": ">=0.3.4",
+    "@drmikecrowe/eslint-config": "0.3.5",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.6.2"
