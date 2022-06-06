@@ -45,4 +45,8 @@ module.exports = {
      */
     "vue/no-v-html": "off",
   },
+  rules: {
+    "no-unused-vars": "off",
+    "no-undef": "off",
+  },
 };
